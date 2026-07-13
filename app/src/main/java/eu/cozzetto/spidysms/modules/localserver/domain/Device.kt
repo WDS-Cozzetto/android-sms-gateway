@@ -1,0 +1,12 @@
+﻿package eu.cozzetto.spidysms.modules.localserver.domain
+
+import java.util.Date
+
+data class Device(
+    val id: String,
+    val name: String,
+    val createdAt: Date,
+    val updatedAt: Date,
+    val lastSeen: Date,
+    val simCards: List<SimCard> = emptyList()
+)

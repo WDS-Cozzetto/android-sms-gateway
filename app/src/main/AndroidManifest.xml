@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -54,8 +54,8 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="me.capcom.smsgateway.ACTION_SENT" />
-                <action android:name="me.capcom.smsgateway.ACTION_DELIVERED" />
+                <action android:name="eu.cozzetto.spidysms.ACTION_SENT" />
+                <action android:name="eu.cozzetto.spidysms.ACTION_DELIVERED" />
             </intent-filter>
         </receiver>
         <receiver
